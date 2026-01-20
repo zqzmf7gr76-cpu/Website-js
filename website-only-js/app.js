@@ -186,7 +186,7 @@ sectionContainer.style.boxShadow = "0 4px 6px rgba(0,0,0,0.3)";
 
 // Section image
 const sectionImg = document.createElement("img");
-sectionImg.src = "images/list.webp";
+sectionImg.src = "website-only-js/images/list.webp";
 sectionImg.style.maxWidth = "500px";
 sectionImg.style.width = "100%";
 sectionImg.style.borderRadius = "10px";
@@ -245,7 +245,7 @@ createSection("home","Features","Η JavaScript προσφέρει πολλά χ�
 createSection("Practice","practice","Τώρα περνάμε στην πράξη! Επειδή καλή η θεωρία αλλά χωρίς την πράξη κακά τα ψέματα δεν πας ΠΟΥΘΕΝΑ! Γι'αυτό ξεκιίνα να γράφεις κώδικα πάρε το πληκτρολόγιο και στην κυριολεξία λιώσε το στο coding.Όσο πιο πολύ χρόνο αφιερώσεις σε μια γλώσσα προγραμματισμού τόσο καλύτερα την μαθαίνεις.","images/practics.jpg" , "fade-right");
 createSection("about","Pricing","Η JavaScript είναι μια δωρεάν γλώσσα προγραμματισμού που μπορεί να χρησιμοποιηθεί από οποιονδήποτε χωρίς κόστος. Υπάρχουν επίσης πολλές δωρεάν βιβλιοθήκες και εργαλεία διαθέσιμα για χρήση.");
 createSection("the end","Τελευταιο κομμάτι","Δημιούργησα αυτο το site όχι για να δείξω οτι είμαι κάποιος η να καυχηθώ, αλλά για να δείξω οτι με υπομονή και εξάσκηση μπορείς να καταφέρεις πολλά πράγματα. Το μόνο που χρειάζεται είναι να πιστέψεις στον εαυτό σου και να μην τα παρατήσεις ποτέ.","images/the-end.png");
-createSection("contact","Community","Υπάρχει μια μεγάλη και ενεργή κοινότητα προγραμματιστών JavaScript που μοιράζονται γνώσεις, εργαλεία και πόρους. Μπορείτε να βρείτε βοήθεια και υποστήριξη σε φόρουμ, ομάδες συζήτησης και κοινωνικά δίκτυα","images/Comunity.jpg" , "fade-right");
+createSection("contact","Community","Υπάρχει μια μεγάλη και ενεργή κοινότητα προγραμματιστών JavaScript που μοιράζονται γνώσεις, εργαλεία και πόρους. Μπορείτε να βρείτε βοήθεια και υποστήριξη σε φόρουμ, ομάδες συζήτησης και κοινωνικά δίκτυα","website-only-js/images/Comunity.jpg" , "fade-right");
 
 //footer
 const footer = document.createElement("footer");
@@ -271,3 +271,4 @@ footerText3.style.fontSize = "13px";
 footerText3.style.opacity = "0.7";
 footer.append(footerText1, footerText2, footerText3);
 document.body.appendChild(footer);
+
